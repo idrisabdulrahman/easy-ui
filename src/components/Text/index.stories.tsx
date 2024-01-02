@@ -15,6 +15,7 @@ export default meta
 type Story = StoryObj<typeof meta>
 export const Default: Story = {
 	args: {
+		as: 'h1',
 		children: 'The Quick Brown Fox Jumps Over The Lazy Dog',
 		size: 'base',
 		weight: 'bold',
