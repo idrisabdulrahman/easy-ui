@@ -1,9 +1,6 @@
 import * as React from 'react'
 import { cn } from '@/utils'
-import {
-	PolymorphicComponentPropsWithRef,
-	PolymorphicRef,
-} from '@/utils/types/type'
+
 import { cva, VariantProps } from 'class-variance-authority'
 
 const inputStyle = cva([
